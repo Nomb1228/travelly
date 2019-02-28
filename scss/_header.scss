@@ -1,0 +1,37 @@
+.header{
+	background-image: url('../img/header/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 26px;
+	&__top{
+		line-height: 44px;
+	}
+	&-logo{
+		display: inline-block;
+		float: left;
+		vertical-align: middle;
+		&__img{
+			display: inline-block;
+			height: 23px;
+			width: 23px;
+			background-image: url('../img/header/logo.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		&__text{
+			display: inline-block;
+			@include font('Open Sans', 300, 32px, #f4f3ee);
+		}
+	}
+	&-nav{
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 6px;
+		width: 24px;
+		height: 17px;
+		float: right;
+		background-image: url('../img/header/nav.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
